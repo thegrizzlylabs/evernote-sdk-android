@@ -2,6 +2,7 @@ package com.evernote.android.demo.fragment.note;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -10,17 +11,17 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.annotation.NonNull;
-import android.support.design.widget.TextInputLayout;
-import android.support.v4.app.DialogFragment;
-import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.annotation.NonNull;
+import androidx.fragment.app.DialogFragment;
+
 import com.evernote.android.demo.R;
 import com.evernote.android.demo.task.CreateNewNoteTask;
 import com.evernote.client.android.helper.Cat;
+import com.google.android.material.textfield.TextInputLayout;
 
 import net.vrallev.android.task.Task;
 import net.vrallev.android.task.TaskExecutor;

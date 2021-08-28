@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply from: '../build-config/gradle-quality.gradle'
+//apply from: '../build-config/gradle-quality.gradle'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -21,21 +21,21 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 
     lintOptions {
         abortOnError true
 
-        htmlOutput file("$project.buildDir/reports/lint/lint.html")
-        xmlOutput file("$project.buildDir/reports/lint/lint.xml")
+//        htmlOutput file("$project.buildDir/reports/lint/lint.html")
+//        xmlOutput file("$project.buildDir/reports/lint/lint.xml")
     }
 }
 
 dependencies {
-    compile project(':library')
-    compile "com.android.support:recyclerview-v7:$rootProject.ext.supportLibVersion"
-    compile "com.android.support:design:$rootProject.ext.supportLibVersion"
-    compile 'com.evernote:android-intent:1.0.1'
+    implementation project(path: ':library')
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.evernote:android-intent:1.0.1'
 }

@@ -2,8 +2,9 @@ package com.evernote.client.android.login;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v4.app.Fragment;
 import android.text.TextUtils;
+
+import androidx.fragment.app.Fragment;
 
 import com.evernote.client.android.EvernoteOAuthHelper;
 import com.evernote.client.android.EvernoteSession;

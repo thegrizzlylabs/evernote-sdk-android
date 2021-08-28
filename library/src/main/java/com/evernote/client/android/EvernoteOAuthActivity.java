@@ -5,15 +5,17 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 
 import com.evernote.client.android.helper.Cat;
 
@@ -43,6 +45,7 @@ public class EvernoteOAuthActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
 
         setResultUri(null);
+
 
         String url = getIntent().getStringExtra(EvernoteUtil.EXTRA_AUTHORIZATION_URL);
         if (TextUtils.isEmpty(url)) {
@@ -112,6 +115,11 @@ public class EvernoteOAuthActivity extends FragmentActivity {
             mWebView = new WebView(getActivity());
             mWebView.setWebViewClient(mWebViewClient);
             mWebView.getSettings().setJavaScriptEnabled(true);
+            String USER_AGENT = "Mozilla/5.0 (Linux; Android %s; %s %s) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36";
+
+            mWebView.getSettings().setUserAgentString(String.format(USER_AGENT, Build.VERSION.RELEASE, Build.MANUFACTURER, Build.MODEL));
+
+
 
             if (savedInstanceState == null) {
                 mWebView.loadUrl(mUrl);

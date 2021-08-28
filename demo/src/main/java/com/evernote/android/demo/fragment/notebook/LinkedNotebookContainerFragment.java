@@ -1,11 +1,12 @@
 package com.evernote.android.demo.fragment.notebook;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.evernote.android.demo.R;
 import com.evernote.android.demo.fragment.AbstractContainerFragment;
