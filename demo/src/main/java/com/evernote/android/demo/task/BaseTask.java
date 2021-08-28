@@ -37,21 +37,6 @@ public abstract class BaseTask<RESULT> extends Task<RESULT> {
         mResultClass = resultClass;
     }
 
-    public void start(Activity activity) {
-        TASK_EXECUTOR.execute(this, activity);
-    }
-
-    public void start(Activity activity, String annotationId) {
-        TASK_EXECUTOR.execute(this, activity, annotationId);
-    }
-
-    public void start(Fragment fragment) {
-        TASK_EXECUTOR.execute(this, fragment);
-    }
-
-    public void start(Fragment fragment, String annotationId) {
-        TASK_EXECUTOR.execute(this, fragment, annotationId);
-    }
 
     @Override
     protected final RESULT execute() {
