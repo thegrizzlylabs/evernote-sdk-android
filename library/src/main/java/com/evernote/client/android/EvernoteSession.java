@@ -84,7 +84,7 @@ public final class EvernoteSession {
 
     /**
      * The used request code when you launch authentication process from a {@link Activity}. Override
-     * {@link Activity#onActivityResult(int, int, Intent)} to receive the result.
+     *  to receive the result.
      */
     public static final int REQUEST_CODE_LOGIN = 14390;
 
@@ -200,7 +200,7 @@ public final class EvernoteSession {
      *
      * Your {@link FragmentActivity} should implement {@link EvernoteLoginFragment.ResultCallback} to receive
      * the authentication result. Alternatively you can extend {@link EvernoteLoginFragment} and override
-     * {@link EvernoteLoginFragment#onLoginFinished(boolean)}.
+     * .
      *
      * @param activity The {@link FragmentActivity} holding the progress dialog.
      */
@@ -221,7 +221,7 @@ public final class EvernoteSession {
      *
      * <p/>
      *
-     * The calling {@code activity} should override {@link Activity#onActivityResult(int, int, android.content.Intent)}. The {@code requestCode}
+     * The calling {@code activity} should override . The {@code requestCode}
      * is {@link EvernoteSession#REQUEST_CODE_LOGIN}. The {@code resultCode} is either {@link Activity#RESULT_OK} or
      * {@link Activity#RESULT_CANCELED}.
      *

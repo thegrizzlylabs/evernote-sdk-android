@@ -5,7 +5,7 @@
               android:orientation="vertical"
               android:padding="8dp">
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -15,9 +15,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/note_title"/>
 
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -29,6 +29,6 @@
             android:layout_height="match_parent"
             android:hint="@string/note_content"/>
 
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
 </LinearLayout>
