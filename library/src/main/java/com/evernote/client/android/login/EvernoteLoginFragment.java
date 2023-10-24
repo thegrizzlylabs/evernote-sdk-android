@@ -13,7 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.FragmentActivity;
 
-import com.evernote.androidsdk.R;
+import com.evernote.R;
 import com.evernote.client.android.EvernoteOAuthHelper;
 import com.evernote.client.android.EvernoteSession;
 

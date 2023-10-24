@@ -8,8 +8,8 @@ import android.view.MenuItem;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.evernote.android.demo.R;
 import com.evernote.android.demo.fragment.UserInfoFragment;
+import com.evernote.demo.R;
 import com.evernote.edam.type.User;
 
 /**

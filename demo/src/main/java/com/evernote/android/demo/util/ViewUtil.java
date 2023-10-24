@@ -7,7 +7,7 @@ import androidx.annotation.IdRes;
 import androidx.annotation.StringRes;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
-import com.evernote.android.demo.R;
+import com.evernote.demo.R;
 import com.google.android.material.snackbar.Snackbar;
 
 /**

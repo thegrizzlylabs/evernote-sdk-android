@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.evernote.android.demo.R;
+
 import com.evernote.android.demo.activity.MainActivity;
 import com.evernote.android.demo.fragment.AbstractContainerFragment;
 import com.evernote.android.demo.fragment.EmptyFragment;
@@ -20,6 +20,7 @@ import com.evernote.android.demo.task.CreateNewNoteTask;
 import com.evernote.android.demo.task.FindNotesTask;
 import com.evernote.android.demo.util.ViewUtil;
 import com.evernote.client.android.type.NoteRef;
+import com.evernote.demo.R;
 import com.evernote.edam.type.LinkedNotebook;
 import com.evernote.edam.type.Note;
 import com.evernote.edam.type.Notebook;

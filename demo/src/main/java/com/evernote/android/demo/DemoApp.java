@@ -3,6 +3,7 @@ package com.evernote.android.demo;
 import android.app.Application;
 
 import com.evernote.client.android.EvernoteSession;
+import com.evernote.demo.BuildConfig;
 
 /**
  * @author rwondratschek

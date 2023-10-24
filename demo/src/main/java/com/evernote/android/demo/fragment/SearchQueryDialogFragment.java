@@ -11,8 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
-import com.evernote.android.demo.R;
+
 import com.evernote.android.demo.fragment.note.NoteContainerFragment;
+import com.evernote.demo.R;
 import com.google.android.material.textfield.TextInputLayout;
 
 /**

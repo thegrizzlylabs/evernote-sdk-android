@@ -12,8 +12,8 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import com.evernote.android.demo.R;
 import com.evernote.android.demo.activity.MainActivity;
+import com.evernote.demo.R;
 import com.google.android.material.tabs.TabLayout;
 
 /**

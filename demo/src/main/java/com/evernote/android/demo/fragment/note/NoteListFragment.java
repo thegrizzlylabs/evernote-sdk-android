@@ -18,7 +18,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.evernote.android.demo.R;
+
 import com.evernote.android.demo.activity.ViewHtmlActivity;
 import com.evernote.android.demo.fragment.AbstractContainerFragment;
 import com.evernote.android.demo.task.BaseTask;
@@ -31,6 +31,7 @@ import com.evernote.android.intent.EvernoteIntent;
 import com.evernote.client.android.EvernoteSession;
 import com.evernote.client.android.asyncclient.EvernoteClientFactory;
 import com.evernote.client.android.type.NoteRef;
+import com.evernote.demo.R;
 import com.evernote.edam.type.Note;
 
 import net.vrallev.android.task.TaskResult;

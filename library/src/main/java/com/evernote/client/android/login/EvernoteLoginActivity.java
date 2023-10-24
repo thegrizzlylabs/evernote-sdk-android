@@ -12,7 +12,7 @@ import android.widget.Button;
 
 import androidx.annotation.NonNull;
 
-import com.evernote.androidsdk.R;
+import com.evernote.R;
 import com.evernote.client.android.EvernoteOAuthHelper;
 import com.evernote.client.android.EvernoteSession;
 

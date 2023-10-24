@@ -18,9 +18,10 @@ import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.DialogFragment;
 
-import com.evernote.android.demo.R;
+
 import com.evernote.android.demo.task.CreateNewNoteTask;
 import com.evernote.client.android.helper.Cat;
+import com.evernote.demo.R;
 import com.google.android.material.textfield.TextInputLayout;
 
 import net.vrallev.android.task.Task;
@@ -155,9 +156,9 @@ public class CreateNoteDialogFragment extends DialogFragment {
             try {
                 cursor = mContext.getContentResolver().query(selectedImage, QUERY_COLUMNS, null, null, null);
                 if (cursor.moveToFirst()) {
-                    String path = cursor.getString(cursor.getColumnIndex(QUERY_COLUMNS[1]));
-                    String fileName = cursor.getString(cursor.getColumnIndex(QUERY_COLUMNS[3]));
-                    String mimeType = cursor.getString(cursor.getColumnIndex(QUERY_COLUMNS[2]));
+                    @SuppressLint("Range") String path = cursor.getString(cursor.getColumnIndex(QUERY_COLUMNS[1]));
+                    @SuppressLint("Range") String fileName = cursor.getString(cursor.getColumnIndex(QUERY_COLUMNS[3]));
+                    @SuppressLint("Range") String mimeType = cursor.getString(cursor.getColumnIndex(QUERY_COLUMNS[2]));
                     return new CreateNewNoteTask.ImageData(path, fileName, mimeType);
                 }
 

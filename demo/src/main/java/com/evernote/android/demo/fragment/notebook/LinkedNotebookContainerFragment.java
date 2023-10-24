@@ -8,10 +8,10 @@ import android.view.ViewGroup;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.evernote.android.demo.R;
 import com.evernote.android.demo.fragment.AbstractContainerFragment;
 import com.evernote.android.demo.fragment.EmptyFragment;
 import com.evernote.android.demo.task.FindLinkedNotebooksTask;
+import com.evernote.demo.R;
 import com.evernote.edam.type.LinkedNotebook;
 
 import net.vrallev.android.task.TaskResult;

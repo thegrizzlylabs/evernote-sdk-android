@@ -16,13 +16,13 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.evernote.android.demo.R;
 import com.evernote.android.demo.fragment.note.CreateNoteDialogFragment;
 import com.evernote.android.demo.fragment.note.NoteContainerFragment;
 import com.evernote.android.demo.fragment.notebook.NotebookTabsFragment;
 import com.evernote.android.demo.task.GetUserTask;
 import com.evernote.android.demo.util.Util;
 import com.evernote.client.android.EvernoteSession;
+import com.evernote.demo.R;
 import com.evernote.edam.type.User;
 import com.google.android.material.navigation.NavigationView;
 

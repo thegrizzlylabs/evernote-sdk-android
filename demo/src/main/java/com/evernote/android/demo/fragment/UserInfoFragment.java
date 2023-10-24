@@ -11,9 +11,10 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.evernote.android.demo.R;
+
 import com.evernote.android.demo.task.BaseTask;
 import com.evernote.client.android.EvernoteSession;
+import com.evernote.demo.R;
 import com.evernote.edam.notestore.SyncState;
 import com.evernote.edam.type.User;
 

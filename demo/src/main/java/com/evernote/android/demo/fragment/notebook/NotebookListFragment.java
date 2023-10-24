@@ -12,9 +12,9 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.evernote.android.demo.R;
 import com.evernote.android.demo.activity.NotesActivity;
 import com.evernote.android.demo.util.ParcelableUtil;
+import com.evernote.demo.R;
 import com.evernote.edam.type.Notebook;
 
 import java.io.Serializable;

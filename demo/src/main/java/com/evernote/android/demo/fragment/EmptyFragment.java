@@ -9,7 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.evernote.android.demo.R;
+import com.evernote.demo.R;
+
 
 /**
  * @author rwondratschek
