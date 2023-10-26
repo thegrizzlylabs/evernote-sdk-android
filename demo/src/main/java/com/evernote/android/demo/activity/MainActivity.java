@@ -22,11 +22,10 @@ import com.evernote.android.demo.fragment.notebook.NotebookTabsFragment;
 import com.evernote.android.demo.task.GetUserTask;
 import com.evernote.android.demo.util.Util;
 import com.evernote.client.android.EvernoteSession;
+import com.evernote.client.android.tasks.TaskResult;
 import com.evernote.demo.R;
 import com.evernote.edam.type.User;
 import com.google.android.material.navigation.NavigationView;
-
-import net.vrallev.android.task.TaskResult;
 
 /**
  * @author rwondratschek

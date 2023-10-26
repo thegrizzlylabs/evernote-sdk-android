@@ -6,10 +6,9 @@ import com.evernote.android.demo.fragment.AbstractContainerFragment;
 import com.evernote.android.demo.fragment.EmptyFragment;
 import com.evernote.android.demo.task.FindNotebooksTask;
 import com.evernote.android.demo.util.ViewUtil;
+import com.evernote.client.android.tasks.TaskResult;
 import com.evernote.demo.R;
 import com.evernote.edam.type.Notebook;
-
-import net.vrallev.android.task.TaskResult;
 
 import java.util.List;
 

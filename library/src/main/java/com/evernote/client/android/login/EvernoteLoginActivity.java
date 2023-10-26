@@ -15,9 +15,9 @@ import androidx.annotation.NonNull;
 import com.evernote.R;
 import com.evernote.client.android.EvernoteOAuthHelper;
 import com.evernote.client.android.EvernoteSession;
+import com.evernote.client.android.tasks.TaskExecutor;
+import com.evernote.client.android.tasks.TaskResult;
 
-import net.vrallev.android.task.TaskExecutor;
-import net.vrallev.android.task.TaskResult;
 
 import java.util.Locale;
 

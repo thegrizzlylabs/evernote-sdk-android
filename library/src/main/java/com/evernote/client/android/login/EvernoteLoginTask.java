@@ -10,9 +10,8 @@ import com.evernote.client.android.EvernoteOAuthHelper;
 import com.evernote.client.android.EvernoteSession;
 import com.evernote.client.android.EvernoteUtil;
 import com.evernote.client.android.helper.Cat;
+import com.evernote.client.android.tasks.Task;
 import com.evernote.edam.userstore.BootstrapProfile;
-
-import net.vrallev.android.task.Task;
 
 import java.util.List;
 import java.util.concurrent.CountDownLatch;

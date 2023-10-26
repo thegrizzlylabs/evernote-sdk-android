@@ -11,14 +11,12 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-
 import com.evernote.android.demo.task.BaseTask;
 import com.evernote.client.android.EvernoteSession;
+import com.evernote.client.android.tasks.TaskResult;
 import com.evernote.demo.R;
 import com.evernote.edam.notestore.SyncState;
 import com.evernote.edam.type.User;
-
-import net.vrallev.android.task.TaskResult;
 
 /**
  * @author rwondratschek

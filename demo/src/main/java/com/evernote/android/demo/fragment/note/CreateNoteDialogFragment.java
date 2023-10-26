@@ -21,12 +21,12 @@ import androidx.fragment.app.DialogFragment;
 
 import com.evernote.android.demo.task.CreateNewNoteTask;
 import com.evernote.client.android.helper.Cat;
+import com.evernote.client.android.tasks.Task;
+import com.evernote.client.android.tasks.TaskExecutor;
+import com.evernote.client.android.tasks.TaskResult;
 import com.evernote.demo.R;
 import com.google.android.material.textfield.TextInputLayout;
 
-import net.vrallev.android.task.Task;
-import net.vrallev.android.task.TaskExecutor;
-import net.vrallev.android.task.TaskResult;
 
 /**
  * @author rwondratschek

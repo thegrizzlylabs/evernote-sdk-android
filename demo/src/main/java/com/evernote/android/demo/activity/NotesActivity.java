@@ -13,11 +13,10 @@ import androidx.appcompat.widget.Toolbar;
 import com.evernote.android.demo.fragment.note.NoteContainerFragment;
 import com.evernote.android.demo.task.BaseTask;
 import com.evernote.client.android.EvernoteSession;
+import com.evernote.client.android.tasks.TaskResult;
 import com.evernote.demo.R;
 import com.evernote.edam.type.LinkedNotebook;
 import com.evernote.edam.type.Notebook;
-
-import net.vrallev.android.task.TaskResult;
 
 /**
  * @author rwondratschek

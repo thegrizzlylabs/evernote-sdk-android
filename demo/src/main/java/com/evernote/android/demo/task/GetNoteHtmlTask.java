@@ -4,7 +4,8 @@ import com.evernote.client.android.EvernoteSession;
 import com.evernote.client.android.asyncclient.EvernoteClientFactory;
 import com.evernote.client.android.asyncclient.EvernoteHtmlHelper;
 import com.evernote.client.android.type.NoteRef;
-import com.squareup.okhttp.Response;
+
+import okhttp3.Response;
 
 /**
  * @author rwondratschek

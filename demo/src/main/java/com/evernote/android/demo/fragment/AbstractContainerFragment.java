@@ -3,6 +3,7 @@ package com.evernote.android.demo.fragment;
 import android.annotation.TargetApi;
 import android.os.Build;
 import android.os.Bundle;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

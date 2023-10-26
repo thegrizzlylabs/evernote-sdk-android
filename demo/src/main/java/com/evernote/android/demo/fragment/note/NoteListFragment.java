@@ -30,11 +30,10 @@ import com.evernote.android.demo.util.ViewUtil;
 import com.evernote.android.intent.EvernoteIntent;
 import com.evernote.client.android.EvernoteSession;
 import com.evernote.client.android.asyncclient.EvernoteClientFactory;
+import com.evernote.client.android.tasks.TaskResult;
 import com.evernote.client.android.type.NoteRef;
 import com.evernote.demo.R;
 import com.evernote.edam.type.Note;
-
-import net.vrallev.android.task.TaskResult;
 
 import java.util.List;
 

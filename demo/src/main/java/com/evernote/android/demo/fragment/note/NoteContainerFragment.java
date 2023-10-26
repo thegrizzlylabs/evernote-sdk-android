@@ -19,13 +19,13 @@ import com.evernote.android.demo.fragment.SearchQueryDialogFragment;
 import com.evernote.android.demo.task.CreateNewNoteTask;
 import com.evernote.android.demo.task.FindNotesTask;
 import com.evernote.android.demo.util.ViewUtil;
+import com.evernote.client.android.tasks.TaskResult;
 import com.evernote.client.android.type.NoteRef;
 import com.evernote.demo.R;
 import com.evernote.edam.type.LinkedNotebook;
 import com.evernote.edam.type.Note;
 import com.evernote.edam.type.Notebook;
 
-import net.vrallev.android.task.TaskResult;
 
 import java.util.List;
 

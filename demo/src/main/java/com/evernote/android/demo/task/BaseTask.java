@@ -6,18 +6,16 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
-import androidx.fragment.app.Fragment;
 
 
 import com.evernote.android.demo.util.Util;
 import com.evernote.android.demo.util.ViewUtil;
 import com.evernote.client.android.helper.Cat;
+import com.evernote.client.android.tasks.Task;
+import com.evernote.client.android.tasks.TaskExecutor;
 import com.evernote.demo.R;
 import com.evernote.edam.error.EDAMUserException;
 import com.google.android.material.snackbar.Snackbar;
-
-import net.vrallev.android.task.Task;
-import net.vrallev.android.task.TaskExecutor;
 
 import java.util.concurrent.Executors;
 
