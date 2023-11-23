@@ -35,7 +35,6 @@ import android.content.pm.ResolveInfo;
 import android.content.pm.Signature;
 import android.os.Build;
 import android.os.Looper;
-
 import android.util.Base64;
 import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
@@ -320,10 +319,11 @@ public final class EvernoteUtil {
             intent = new Intent(ACTION_AUTHORIZE);
             intent.setPackage(PACKAGE_NAME);
         } else {
-            intent = new Intent(context, EvernoteOAuthActivity.class);
+            intent = new Intent(context, EvernoteOAuthCustomTabsActivity.class);
         }
 
         intent.putExtra(EXTRA_AUTHORIZATION_URL, authorizationUrl);
+
         return intent;
     }
 

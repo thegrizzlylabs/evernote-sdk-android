@@ -11,6 +11,21 @@
             android:required="false" />
 
         <activity android:name="com.evernote.client.android.EvernoteOAuthActivity" />
+
+        <activity android:name="com.evernote.client.android.EvernoteOAuthCustomTabsActivity" />
+        
+        <activity
+            android:name="com.evernote.client.android.EvernoteOAuthCustomTabsRedirectActivity"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="en-oauth"/>
+            </intent-filter>
+        </activity>
+        
         <activity android:name="com.evernote.client.android.login.EvernoteLoginActivity" />
     </application>
 
