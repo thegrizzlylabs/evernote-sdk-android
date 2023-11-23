@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'maven-publish'
 
 dependencies {
 
@@ -32,5 +33,20 @@ android {
 
     lintOptions {
         abortOnError true
+    }
+
+}
+
+afterEvaluate{
+    publishing{
+        publications{
+            release(MavenPublication){
+                from components.release
+
+                groupId='com.github.thegrizzlylabs'
+                artifactId = 'evernote-android-sdk'
+                version = '1.0'
+            }
+        }
     }
 }
