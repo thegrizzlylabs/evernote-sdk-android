@@ -140,7 +140,7 @@ public class DiskBackedByteStore extends ByteStore {
     @Override
     public void close() throws IOException {
         if (!mClosed) {
-            Util.closeQuietly(mFileOutputStream);
+            if (mFileOutputStream != null) Util.closeQuietly(mFileOutputStream);
             mByteArrayOutputStream.reset();
             mClosed = true;
         }

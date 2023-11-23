@@ -94,7 +94,7 @@ public class TAndroidTransport extends TTransport {
 
     @Override
     public void flush() throws TTransportException {
-        Util.closeQuietly(mResponseBody);
+        if (mResponseBody != null) Util.closeQuietly(mResponseBody);
         mResponseBody = null;
 
         RequestBody requestBody = new RequestBody() {
