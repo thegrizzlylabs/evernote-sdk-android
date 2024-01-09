@@ -8,16 +8,19 @@ import androidx.fragment.app.FragmentActivity;
 
 public class EvernoteOAuthCustomTabsActivity extends FragmentActivity {
 
+    private boolean authorizationStarted = false;
+
     @Override
     protected void onResume() {
         super.onResume();
 
         // If this is the first run of the activity, start the authorization activity
         String url = getIntent().getStringExtra(EvernoteUtil.EXTRA_AUTHORIZATION_URL);
-        if (url != null) {
+        if (url != null && !authorizationStarted) {
             new CustomTabsIntent.Builder()
                     .build()
                     .launchUrl(this, Uri.parse(url));
+            authorizationStarted = true;
             return;
         }
 
