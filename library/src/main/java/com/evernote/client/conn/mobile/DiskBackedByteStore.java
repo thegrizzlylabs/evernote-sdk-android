@@ -35,8 +35,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import okhttp3.internal.Util;
-
 /**
  * Holds all the data in memory until a threshold is reached. Then it writes all the data on disk.
  *
