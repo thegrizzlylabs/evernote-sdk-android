@@ -8,6 +8,8 @@ import android.os.Bundle;
 import com.evernote.android.demo.activity.LoginActivity;
 import com.evernote.android.demo.activity.MainActivity;
 import com.evernote.client.android.EvernoteOAuthActivity;
+import com.evernote.client.android.EvernoteOAuthCustomTabsActivity;
+import com.evernote.client.android.EvernoteOAuthCustomTabsRedirectActivity;
 import com.evernote.client.android.EvernoteSession;
 import com.evernote.client.android.login.EvernoteLoginActivity;
 
@@ -22,7 +24,9 @@ public class LoginChecker implements Application.ActivityLifecycleCallbacks {
     private static final List<Class<? extends Activity>> IGNORED_ACTIVITIES = Arrays.asList(
             LoginActivity.class,
             EvernoteLoginActivity.class,
-            EvernoteOAuthActivity.class
+            EvernoteOAuthActivity.class,
+            EvernoteOAuthCustomTabsActivity.class,
+            EvernoteOAuthCustomTabsRedirectActivity.class
     );
 
     private Intent mCachedIntent;
